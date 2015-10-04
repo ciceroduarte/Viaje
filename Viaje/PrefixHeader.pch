@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  Viaje
+//
+//  Created by Cicero on 03/10/15.
+//  Copyright © 2015 ciceroduarte. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+
+#define URL_BASE @"http://private-f2aad-viaje2.apiary-mock.com/"
+#define URL_OFFERS @"offers"
+#define URL_OFFER_DETAIL @"detail"
+#define URL_PURCHASE @"purchase"
+
+#define SEGUE_LOST_CONNECTION @"segue_lost_connection"
+#define SEGUE_OFFER_DETAIL @"segue_offer_detail"
+
+#endif
